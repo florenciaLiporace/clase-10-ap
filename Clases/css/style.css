@@ -1,0 +1,113 @@
+.Primero {
+
+    background-color: #fbbc02;
+     font-family: 'Ubuntu Mono', monospace;
+     padding-left: 1cm;
+     padding-right: 1cm;
+     padding-bottom: 1cm;
+     display: flex;
+     flex-direction: row;
+ 
+ }
+ .texto{
+     margin-left: auto;
+     font-size: 20px;
+     transition-property: font-size;
+     transition-duration: 3s;
+     transition-timing-function: ease-in-out;
+ }
+
+ .texto:hover {
+    font-size: 25px;
+}
+
+.Mercado{
+    font-size: 25px;
+}
+
+.Segundo{
+    background-color: #fbbc02;
+    padding-left: 1cm;
+    padding-right: 1cm;
+    display: flex;
+    font-size: 20px;
+
+    
+
+}
+
+.Crea{
+    margin-left: auto;
+    
+}
+
+.Ofertas{
+    display: flex;
+    padding-left: 1px;
+    padding-right: 1px;
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+
+
+.col-3{
+    text-align: center;
+    border: 1px gray solid;
+}
+
+
+#Comprar{
+    background-color: rgb(0, 105, 175);
+    color: white;
+    border: 0px;
+
+}
+
+.Título{
+    text-align: center;
+}
+
+.Subtítulo{
+    text-align: center;
+
+}
+
+.Destacados{
+    display: flex;
+    padding-left: 1px;
+    padding-right: 1px;
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+.Smart{
+    
+   
+}
+.Televisión{
+    opacity: 80%
+}
+.Galaxy{
+    border: 1px gray solid;
+    
+}
+.Teléfono{
+    opacity: 80%
+}
+
+.Texto{
+    position: relative;
+    bottom: 50%;
+}
+
+.Footer{
+    border-top: 1px gray solid;
+    padding-top: 30px;
+}
+.col-4{
+   border-left: 1px gray solid;
+   border-right: 1px gray solid;
+}
